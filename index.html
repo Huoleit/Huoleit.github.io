@@ -19,626 +19,673 @@
 
     <meta name="author" content="FU Zhengyu" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
     <link rel="icon" type="image/png" href="images/letter-f.png" />
+
+    <!-- CSS -->
+    <link href="bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+
+    <!-- script -->
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
   </head>
 
   <body>
-    <table
-      style="
-        width: 100%;
-        max-width: 800px;
-        border: 0px;
-        border-spacing: 0px;
-        border-collapse: separate;
-        margin-right: auto;
-        margin-left: auto;
-      ">
-      <tbody>
-        <tr style="padding: 0px">
-          <td style="padding: 0px">
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr style="padding: 0px">
-                  <td style="padding: 2.5%; width: 63%; vertical-align: middle">
-                    <p style="text-align: center">
-                      <name>FU Zhengyu</name>
-                    </p>
-                    <p>
-                      I'm a senior undergraduate from
-                      <i><img src="images/hkust.png" alt="" style="height: 1em" /></i>
-                      <a href="https://hkust.edu.hk/">The Hong Kong University of Science and Technology</a>
-                      majoring in
-                      <a href="https://isd.hkust.edu.hk/">Integrative System and Design</a>, with a dual major in
-                      <a href="http://www.cpeg.ust.hk/">Computer Engineering</a>.
-                    </p>
-                    <!-- <p>
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications-section">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#research-section">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project-section">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#coursework-section">Coursework</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#robotics-section">Robotics Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <table
+        style="
+          width: 100%;
+          max-width: 800px;
+          border: 0px;
+          border-spacing: 0px;
+          border-collapse: separate;
+          margin-right: auto;
+          margin-left: auto;
+        ">
+        <tbody>
+          <tr style="padding: 0px">
+            <td style="padding: 0px">
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr style="padding: 0px">
+                    <td style="padding: 2.5%; width: 65%; vertical-align: middle">
+                      <p style="text-align: center">
+                        <name>FU Zhengyu</name>
+                      </p>
+                      <p>
+                        I'm a senior undergraduate from
+                        <i><img src="images/hkust.png" alt="" style="height: 1em" /></i>
+                        <a href="https://hkust.edu.hk/">The Hong Kong University of Science and Technology</a>
+                        majoring in
+                        <a href="https://isd.hkust.edu.hk/">Integrative System and Design</a>, with a dual major in
+                        <a href="http://www.cpeg.ust.hk/">Computer Engineering</a>.
+                      </p>
+                      <!-- <p>
                       I'm a <b>senior robotics software engineer</b> at
                       <a href="https://www.robomasterhkust.com/">ENTERPRIZE</a>
                       and have participated in
                       <a href="https://www.robomaster.com/en-US">RoboMaster</a>
                       2019.
                     </p> -->
-                    <p>
-                      From 2021 to 2022, I completed my bachelor thesis at the
-                      <i><img src="images/icon.png" alt="" style="height: 1em" /></i>
-                      <b><a href="https://rsl.ethz.ch/">Robotic Systems Lab (RSL)</a></b>
-                      at ETH Zurich on
-                      <b>optimal control solvers for robotics</b>, under the supervision of
-                      <a
-                        href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html">
-                        Prof. Marco Hutter
-                      </a>
-                      and
-                      <a href="https://rsl.ethz.ch/the-lab/people.MTkzNDk2.TGlzdC80MjE3LDk1MDc2MTgzOQ==.html">
-                        Dr. Farbod Farshidian
-                      </a>
-                      .
-                    </p>
-                    <p>
-                      In the summer of 2022, I was a
-                      <i><img src="images/RI.png" alt="" style="height: 1em" /></i>
-                      <a href="https://riss.ri.cmu.edu/">Robotics Institute Summer Scholar (RISS)</a> in the
-                      <i><img src="images/rex.ico" alt="" style="height: 1em" /></i>
-                      <a href="http://roboticexplorationlab.org/">Robotic Exploration Lab</a> at Carnegie Mellon
-                      University, supervised by
-                      <a href="https://www.ri.cmu.edu/ri-faculty/zachary-manchester/"> Prof. Zachary Manchester</a>.
-                    </p>
+                      <p>
+                        From 2021 to 2022, I completed my bachelor thesis at the
+                        <i><img src="images/icon.png" alt="" style="height: 1em" /></i>
+                        <b><a href="https://rsl.ethz.ch/">Robotic Systems Lab (RSL)</a></b>
+                        at ETH Zurich on
+                        <b>optimal control solvers for robotics</b>, under the supervision of
+                        <a
+                          href="https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html">
+                          Prof. Marco Hutter
+                        </a>
+                        and
+                        <a href="https://rsl.ethz.ch/the-lab/people.MTkzNDk2.TGlzdC80MjE3LDk1MDc2MTgzOQ==.html">
+                          Dr. Farbod Farshidian
+                        </a>
+                        .
+                      </p>
+                      <p>
+                        In the summer of 2022, I was a
+                        <i><img src="images/RI.png" alt="" style="height: 1em" /></i>
+                        <a href="https://riss.ri.cmu.edu/">Robotics Institute Summer Scholar (RISS)</a> in the
+                        <i><img src="images/rex.ico" alt="" style="height: 1em" /></i>
+                        <a href="http://roboticexplorationlab.org/">Robotic Exploration Lab</a> at Carnegie Mellon
+                        University, supervised by
+                        <a href="https://www.ri.cmu.edu/ri-faculty/zachary-manchester/"> Prof. Zachary Manchester</a>.
+                      </p>
 
-                    <p>
-                      I am a robotics fanatic with broad interested in <b>optimal control</b>, <b>control theory</b> and
-                      <b>applied optimization</b> for agile robotics systems such as <b>quadrupeds</b> and
-                      <b>quadrotors</b>.
-                    </p>
-                    <p style="text-align: center">
-                      <a href="mailto:zfuaj@connect.ust.hk">
-                        <i><img src="images/svg/envelope-regular.svg" alt="" style="height: 1em" /></i>
-                        Email</a
-                      >
-                      &nbsp/&nbsp
-                      <a href="data/cvFuZhengyu.pdf">CV</a> &nbsp/&nbsp
-                      <a href="https://github.com/Huoleit/"
-                        ><i><img src="images/svg/github.svg" alt="" style="height: 1em" /></i> Github</a
-                      >
-                      &nbsp/&nbsp
-                      <a href="https://www.linkedin.com/in/zhengyu-fu-b4992a1bb/"
-                        ><i><img src="images/svg/linkedin.svg" alt="" style="height: 1em" /></i> LinkedIn</a
-                      >
-                    </p>
-                  </td>
-                  <td style="padding: 2.5%; width: 40%; max-width: 40%">
-                    <img
-                      style="width: 100%; max-width: 100%"
-                      alt="profile photo"
-                      src="images/me.jpg"
-                      class="hoverZoomLink" />
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                      <p>
+                        I am a robotics fanatic with broad interested in <b>optimal control</b>,
+                        <b>control theory</b> and <b>applied optimization</b> for agile robotics systems such as
+                        <b>quadrupeds</b> and <b>quadrotors</b>.
+                      </p>
+                      <p style="text-align: center">
+                        <a href="mailto:zfuaj@connect.ust.hk">
+                          <i><img src="images/svg/envelope-regular.svg" alt="" style="height: 1em" /></i>
+                          Email</a
+                        >
+                        &nbsp/&nbsp
+                        <a href="data/cvFuZhengyu.pdf">CV</a> &nbsp/&nbsp
+                        <a href="https://github.com/Huoleit/"
+                          ><i><img src="images/svg/github.svg" alt="" style="height: 1em" /></i> Github</a
+                        >
+                        &nbsp/&nbsp
+                        <a href="https://www.linkedin.com/in/zhengyu-fu-b4992a1bb/"
+                          ><i><img src="images/svg/linkedin.svg" alt="" style="height: 1em" /></i> LinkedIn</a
+                        >
+                      </p>
+                    </td>
+                    <td style="padding: 2.5%; width: 40%; max-width: 40%">
+                      <img
+                        style="width: 100%; max-width: 100%"
+                        alt="profile photo"
+                        src="images/me.jpg"
+                        class="hoverZoomLink" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 100%; vertical-align: middle">
-                    <heading>Publications</heading>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 100%; vertical-align: middle">
+                      <heading><span id="publications-section"></span>Publications</heading>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <div class="one">
-                      <img src="images/campus.png" width="100%" />
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle> Cerberus: Low-Drift Visual-Inertial-Leg Odometry For Agile Locomotion </papertitle>
-                    </div>
-                    Shuo Yang, Zixin Zhang, <b>Zhengyu Fu</b>, Zachary Manchester
-                    <br />
-                    <em>Submitted to ICRA 2023 (Under review)</em>
-                    <br />
-                    <p>
-                      An open-source Visual-Inertial-Leg Odometry (VILO) state estimation solution, Cerberus, for legged
-                      robots that estimates position precisely on various terrains in real time using a set of standard
-                      sensors, including stereo cameras, IMU, joint encoders, and contact sensors.
-                    </p>
-                    <p>
-                      <a href="https://arxiv.org/abs/2209.07654"> arXiv </a>
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 25%; vertical-align: middle">
+                      <div class="one">
+                        <img src="images/campus.png" width="100%" />
+                      </div>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle> Cerberus: Low-Drift Visual-Inertial-Leg Odometry For Agile Locomotion </papertitle>
+                      </div>
+                      Shuo Yang, Zixin Zhang, <b>Zhengyu Fu</b>, Zachary Manchester
+                      <br />
+                      <em>Submitted to ICRA 2023 (Under review)</em>
+                      <br />
+                      <p>
+                        An open-source Visual-Inertial-Leg Odometry (VILO) state estimation solution, Cerberus, for
+                        legged robots that estimates position precisely on various terrains in real time using a set of
+                        standard sensors, including stereo cameras, IMU, joint encoders, and contact sensors.
+                      </p>
+                      <p>
+                        <a href="https://arxiv.org/abs/2209.07654"> arXiv </a>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 100%; vertical-align: middle">
-                    <heading>Research</heading>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 100%; vertical-align: middle">
+                      <heading><span id="research-section"></span>Research</heading>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/pdal_quad.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/pdal_quad.gif" alt="(PDAL)" width="160" />
+                          <img src="images/pdal_quad.gif" alt="(PDAL)" width="160" />
+                        </div>
                       </div>
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle>Primal-Dual Augmented Lagrangian Solver for Model Predictive Control</papertitle>
-                    </div>
-                    <br />
-                    <p>
-                      A novel primal-dual formulation of augmented Lagrangian named PDAL that can greatly mitigate the
-                      numerical issue associated with the ill-conditioned Hessian and speed up convergence.
-                    </p>
-                    <br />
-                    <a href="https://www.youtube.com/watch?v=9xK1cLN08k8">Video</a> |
-                    <a href="https://drive.google.com/file/d/1ZefSwDYvdD55NqThGvqcxKbP__tBPb_T/view?usp=sharing"
-                      >Paper</a
-                    >
-                    |
-                    <a href="https://github.com/RoboticExplorationLab/PDAL-CPP">Code</a>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <img src="images/ldl.png" width="100%" />
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle>Primal-Dual Augmented Lagrangian Solver for Model Predictive Control</papertitle>
                       </div>
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle>Block-wise LDL routine - A side project of PDAL</papertitle>
-                    </div>
-                    <br />
-                    <p>
-                      A concise LDL factorization routine dedicated for model predictive control. Loop-unrolling and
-                      code generation techniques are utilized to speed up factorization of problems with fixed-horizon.
-                    </p>
-                    <br />
-                    <a href="https://github.com/Huoleit/SparseLDL">Code</a>
-                  </td>
-                </tr>
+                      <br />
+                      <p>
+                        A novel primal-dual formulation of augmented Lagrangian named PDAL that can greatly mitigate the
+                        numerical issue associated with the ill-conditioned Hessian and speed up convergence.
+                      </p>
+                      <br />
+                      <a href="https://www.youtube.com/watch?v=9xK1cLN08k8">Video</a> |
+                      <a href="https://drive.google.com/file/d/1ZefSwDYvdD55NqThGvqcxKbP__tBPb_T/view?usp=sharing"
+                        >Paper</a
+                      >
+                      |
+                      <a href="https://github.com/RoboticExplorationLab/PDAL-CPP">Code</a>
+                    </td>
+                  </tr>
 
-                <tr>
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr>
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <img src="images/ldl.png" width="100%" />
+                        </div>
+                      </div>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle>Block-wise LDL routine - A side project of PDAL</papertitle>
+                      </div>
+                      <br />
+                      <p>
+                        A concise LDL factorization routine dedicated for model predictive control. Loop-unrolling and
+                        code generation techniques are utilized to speed up factorization of problems with
+                        fixed-horizon.
+                      </p>
+                      <br />
+                      <a href="https://github.com/Huoleit/SparseLDL">Code</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/legged.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/legged-s.gif" alt="(Quadruped)" width="160" />
+                          <img src="images/legged-s.gif" alt="(Quadruped)" width="160" />
+                        </div>
                       </div>
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle
-                        ><span style="color: red">Bachelor thesis</span> - Multi-threaded nonlinear MPC with PIPG for
-                        Legged Robots</papertitle
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle
+                          ><span style="color: red">Bachelor thesis</span> - Multi-threaded nonlinear MPC with PIPG for
+                          Legged Robots</papertitle
+                        >
+                      </div>
+                      <br />
+                      <p>
+                        A numerical implementation of a parallelizable QP solver named Proportional-Integral Projected
+                        Gradient (PIPG) under the nonlinear MPC (NMPC) framework of OCS2 which verified the feasibility
+                        of boosting control frequency by parallel computing. For more information, please see my
+                        Bachelor thesis.
+                      </p>
+                      <br />
+                      <a href="https://drive.google.com/file/d/1awvQxzCV4YQgefRItPewR2Y9-yTyqu0X/view?usp=sharing"
+                        >Bachelor thesis</a
                       >
-                    </div>
-                    <br />
-                    <p>
-                      A numerical implementation of a parallelizable QP solver named Proportional-Integral Projected
-                      Gradient (PIPG) under the nonlinear MPC (NMPC) framework of OCS2 which verified the feasibility of
-                      boosting control frequency by parallel computing. For more information, please see my Bachelor
-                      thesis.
-                    </p>
-                    <br />
-                    <a href="https://drive.google.com/file/d/1awvQxzCV4YQgefRItPewR2Y9-yTyqu0X/view?usp=sharing"
-                      >Bachelor thesis</a
-                    >
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 100%; vertical-align: middle">
-                    <heading>Projects</heading>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 100%; vertical-align: middle">
+                      <heading><span id="project-section"></span>Projects</heading>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/ocs2.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/ocs2.gif" alt="(OCS2)" width="160" />
+                          <img src="images/ocs2.gif" alt="(OCS2)" width="160" />
+                        </div>
                       </div>
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle>OCS2 Toolbox - Optimal Control for Switched Systems</papertitle>
-                    </div>
-                    <br />
-                    <p>
-                      I revised the parallelization scheme of the backward pass of different dynamical programming (DDP)
-                      in OCS2 which improved the performance be 18%. The pull requests (PRs) are merged into the main
-                      branch and the toolbox is available at <a href="https://github.com/leggedrobotics/ocs2">OCS2</a>.
-                    </p>
-                  </td>
-                </tr>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle>OCS2 Toolbox - Optimal Control for Switched Systems</papertitle>
+                      </div>
+                      <br />
+                      <p>
+                        I revised the parallelization scheme of the backward pass of different dynamical programming
+                        (DDP) in OCS2 which improved the performance be 18%. The pull requests (PRs) are merged into the
+                        main branch and the toolbox is available at
+                        <a href="https://github.com/leggedrobotics/ocs2">OCS2</a>.
+                      </p>
+                    </td>
+                  </tr>
 
-                <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
+                    <td style="padding: 20px; width: 25%; vertical-align: middle">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/linkage_video.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/linkage.gif" alt="(Linkage)" width="160" />
+                          <img src="images/linkage.gif" alt="(Linkage)" width="160" />
+                        </div>
+                        <!-- <img src="images/linkage_img.jpg" width="160" class="three" /> -->
                       </div>
-                      <!-- <img src="images/linkage_img.jpg" width="160" class="three" /> -->
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <a href="/quadruped/">
-                      <papertitle>Quadruped Walking Mechanism</papertitle>
-                    </a>
-                    <br />
-                    <p>
-                      A mechanical system consisting of four identical planar walking mechanisms and being propelled by
-                      friction with the ground.
-                    </p>
-                  </td>
-                </tr>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <a href="/quadruped/">
+                        <papertitle>Quadruped Walking Mechanism</papertitle>
+                      </a>
+                      <br />
+                      <p>
+                        A mechanical system consisting of four identical planar walking mechanisms and being propelled
+                        by friction with the ground.
+                      </p>
+                    </td>
+                  </tr>
 
-                <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
+                    <td style="padding: 20px; width: 25%; vertical-align: middle">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/optimal_video.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/optimal_video.gif" alt="(Optimal Control)" width="160" />
+                          <img src="images/optimal_video.gif" alt="(Optimal Control)" width="160" />
+                        </div>
+                        <!-- <img src="images/optimal_img.jpg" width="160" class="three" /> -->
                       </div>
-                      <!-- <img src="images/optimal_img.jpg" width="160" class="three" /> -->
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle>
-                        Motion Planning for Mobile Robots with iLQR: A Model Predictive Control Approach
-                      </papertitle>
-                    </div>
-                    <p>
-                      A MPC-iLQR controller for differential wheeled robots that is capable of reasoning about dynamic
-                      obstacles and replanning online.
-                    </p>
-                    <p>
-                      <a href="https://youtu.be/XL8FVjdYE0M"> Demo Video </a>
-                    </p>
-                  </td>
-                </tr>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle>
+                          Motion Planning for Mobile Robots with iLQR: A Model Predictive Control Approach
+                        </papertitle>
+                      </div>
+                      <p>
+                        A MPC-iLQR controller for differential wheeled robots that is capable of reasoning about dynamic
+                        obstacles and replanning online.
+                      </p>
+                      <p>
+                        <a href="https://youtu.be/XL8FVjdYE0M"> Demo Video </a>
+                      </p>
+                    </td>
+                  </tr>
 
-                <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/multi_agent_video.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/multi_agent_video.gif" alt="(Multi-agent)" width="160" />
+                          <img src="images/multi_agent_video.gif" alt="(Multi-agent)" width="160" />
+                        </div>
+                        <!-- <img src="images/multi_agent_img.png" width="160" class="three" /> -->
                       </div>
-                      <!-- <img src="images/multi_agent_img.png" width="160" class="three" /> -->
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <a href="/relative_formation/">
-                        <papertitle>Relative State Formation-based Multi-robot Objects Manipulation</papertitle>
-                      </a>
-                    </div>
-                    <br />
-                    <p>A control algorithm that uses a group of identical robots to manipulate objects collectively.</p>
-                    <br />
-                    <!-- <a href="https://drive.google.com/file/d/1eQPwOF5zYnRaDWV0bzPTMEJjUnh7s7Iy/view">Demo Video</a> -->
-                  </td>
-                </tr>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <a href="/relative_formation/">
+                          <papertitle>Relative State Formation-based Multi-robot Objects Manipulation</papertitle>
+                        </a>
+                      </div>
+                      <br />
+                      <p>
+                        A control algorithm that uses a group of identical robots to manipulate objects collectively.
+                      </p>
+                      <br />
+                      <!-- <a href="https://drive.google.com/file/d/1eQPwOF5zYnRaDWV0bzPTMEJjUnh7s7Iy/view">Demo Video</a> -->
+                    </td>
+                  </tr>
 
-                <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/imu_video.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/imu_video.gif" alt="(IMU)" width="160" />
+                          <img src="images/imu_video.gif" alt="(IMU)" width="160" />
+                        </div>
+                        <!-- <img src="images/imu_img.png" width="160" class="three" /> -->
                       </div>
-                      <!-- <img src="images/imu_img.png" width="160" class="three" /> -->
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <a href="/imu/">
-                        <papertitle>IMU-based Motion Capture System</papertitle>
-                      </a>
-                    </div>
-                    <br />
-                    <p>
-                      A motion capture system based solely on two IMUs attached to the forearm and elbow respectively.
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <a href="/imu/">
+                          <papertitle>IMU-based Motion Capture System</papertitle>
+                        </a>
+                      </div>
+                      <br />
+                      <p>
+                        A motion capture system based solely on two IMUs attached to the forearm and elbow respectively.
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 100%; vertical-align: middle">
-                    <heading>Coursework</heading>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 100%; vertical-align: middle">
+                      <heading><span id="coursework-section"></span>Coursework</heading>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 25%; vertical-align: middle">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/course_control.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/course_control.gif" alt="(Optimal Control)" width="160" />
+                          <img src="images/course_control.gif" alt="(Optimal Control)" width="160" />
+                        </div>
                       </div>
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <a href="/optimal/">
-                      <papertitle>Optimal Control</papertitle>
-                    </a>
-                    (PhD Level Course)
-                    <br />
-                    <p>
-                      From this course, I learnt <br /><b
-                        ><em
-                          >unconstrained optimization, &nbsp Constrained Optimization, &nbsp Linear Quadratic
-                          Regulator(LQR), &nbsp Linear Quadratic Gaussian(LQG), &nbsp Convex MPC, &nbsp Dynamic
-                          Programming(DDP), &nbsp
-                          <br />
-                          Direct Collocation, &nbsp Sequential Quadratic Programming(SQP) and Optimization for Hybrid
-                          System
-                        </em></b
-                      >
-                    </p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <img src="images/quadrotor.png" width="160" />
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <a href="/quadrotor/">
-                        <papertitle>State Estimation, Planning and Control for Quadrotor </papertitle>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <a href="/optimal/">
+                        <papertitle>Optimal Control</papertitle>
                       </a>
                       (PhD Level Course)
-                    </div>
-                    <br />
-                    <p>
-                      A comprehensive introduction to aerial robots. Topics include
-                      <b
-                        ><em
-                          >rigid-body dynamics, system modeling, control, trajectory planning, sensor fusion, and
-                          vision-based state estimation.</em
-                        ></b
-                      >
-                    </p>
-                  </td>
-                </tr>
+                      <br />
+                      <p>
+                        From this course, I learnt <br /><b
+                          ><em
+                            >unconstrained optimization, &nbsp Constrained Optimization, &nbsp Linear Quadratic
+                            Regulator(LQR), &nbsp Linear Quadratic Gaussian(LQG), &nbsp Convex MPC, &nbsp Dynamic
+                            Programming(DDP), &nbsp
+                            <br />
+                            Direct Collocation, &nbsp Sequential Quadratic Programming(SQP) and Optimization for Hybrid
+                            System
+                          </em></b
+                        >
+                      </p>
+                    </td>
+                  </tr>
 
-                <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
-                  <td style="padding: 20px; width: 25%">
-                    <div class="one">
-                      <div class="two">
-                        <!-- <video width="100%" height="100%" muted autoplay loop>
+                  <tr>
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <img src="images/quadrotor.png" width="160" />
+                      </div>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <a href="/quadrotor/">
+                          <papertitle>State Estimation, Planning and Control for Quadrotor </papertitle>
+                        </a>
+                        (PhD Level Course)
+                      </div>
+                      <br />
+                      <p>
+                        A comprehensive introduction to aerial robots. Topics include
+                        <b
+                          ><em
+                            >rigid-body dynamics, system modeling, control, trajectory planning, sensor fusion, and
+                            vision-based state estimation.</em
+                          ></b
+                        >
+                      </p>
+                    </td>
+                  </tr>
+
+                  <tr onmouseout="video_stop(this)" onmouseover="video_start(this)">
+                    <td style="padding: 20px; width: 25%">
+                      <div class="one">
+                        <div class="two">
+                          <!-- <video width="100%" height="100%" muted autoplay loop>
                           <source src="images/vision.mp4" type="video/mp4" />
                           Your browser does not support the video tag.
                         </video> -->
-                        <img src="images/vision.gif" alt="(Computer Vision)" width="160" />
+                          <img src="images/vision.gif" alt="(Computer Vision)" width="160" />
+                        </div>
+                        <!-- <img src="images/vision.jpg" width="160" class="three" /> -->
                       </div>
-                      <!-- <img src="images/vision.jpg" width="160" class="three" /> -->
-                    </div>
-                  </td>
-                  <td style="padding: 20px; width: 75%; vertical-align: top">
-                    <div>
-                      <papertitle>Fundamental of Computer Vision</papertitle>
-                    </div>
-                    <br />
-                    <p>
-                      Topics include
-                      <b
-                        ><em
-                          >image processing, detection and recognition, geometry-based and physics-based vision and
-                          video analysis.</em
-                        ></b
-                      >
-                    </p>
-                    <br />
-                    <!-- <a href="https://drive.google.com/file/d/1eQPwOF5zYnRaDWV0bzPTMEJjUnh7s7Iy/view">Demo Video</a> -->
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+                    </td>
+                    <td style="padding: 20px; width: 75%; vertical-align: top">
+                      <div>
+                        <papertitle>Fundamental of Computer Vision</papertitle>
+                      </div>
+                      <br />
+                      <p>
+                        Topics include
+                        <b
+                          ><em
+                            >image processing, detection and recognition, geometry-based and physics-based vision and
+                            video analysis.</em
+                          ></b
+                        >
+                      </p>
+                      <br />
+                      <!-- <a href="https://drive.google.com/file/d/1eQPwOF5zYnRaDWV0bzPTMEJjUnh7s7Iy/view">Demo Video</a> -->
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
 
-            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-              <tbody>
-                <tr>
-                  <td>
-                    <heading>Robotics Team</heading>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table width="100%" align="center" border="0" cellpadding="20">
-              <tbody>
-                <tr>
-                  <td style="padding: 20px; width: 25%; vertical-align: middle">
-                    <a href="https://www.robomasterhkust.com/">
-                      <img src="images/enterprize_logo-s.png" alt="(RoboMaster)" width="160px" />
-                    </a>
-                  </td>
-                  <td width="75%" valign="center">
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/fzuetYkZuoI"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
+              <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+                <tbody>
+                  <tr>
+                    <td>
+                      <heading><span id="robotics-section"></span>Robotics Team</heading>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table width="100%" align="center" border="0" cellpadding="20">
+                <tbody>
+                  <tr>
+                    <td style="padding: 20px; width: 25%; vertical-align: middle">
+                      <a href="https://www.robomasterhkust.com/">
+                        <img src="images/enterprize_logo-s.png" alt="(RoboMaster)" width="160px" />
+                      </a>
+                    </td>
+                    <td width="75%" valign="center">
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/fzuetYkZuoI"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
 
-                    <iframe
-                      width="560"
-                      height="315"
-                      src="https://www.youtube.com/embed/Kellgq9HXNI"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen></iframe>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <table
-              style="
-                width: 100%;
-                border: 0px;
-                border-spacing: 0px;
-                border-collapse: separate;
-                margin-right: auto;
-                margin-left: auto;
-              ">
-              <tbody>
-                <tr>
-                  <td style="padding: 0px">
-                    <p style="text-align: right; font-size: small">
-                      <a href="https://github.com/jonbarron/website"> Thanks for the website design </a>
-                    </p>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+                      <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/Kellgq9HXNI"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table
+                style="
+                  width: 100%;
+                  border: 0px;
+                  border-spacing: 0px;
+                  border-collapse: separate;
+                  margin-right: auto;
+                  margin-left: auto;
+                ">
+                <tbody>
+                  <tr>
+                    <td style="padding: 0px">
+                      <p style="text-align: right; font-size: small">
+                        <a href="https://github.com/jonbarron/website"> Thanks for the website design </a>
+                      </p>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>

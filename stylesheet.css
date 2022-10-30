@@ -88,7 +88,14 @@ tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+  font-size: 14px;
+}
+
+p {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  line-height: 1.3em;
+  font-weight: normal;
 }
 
 strong {
@@ -103,6 +110,12 @@ b {
 heading {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
+  position: relative;
+}
+
+heading span {
+  position: absolute;
+  top: -80px;
 }
 
 papertitle {
