@@ -91,6 +91,10 @@ a {
   font-size: 14px;
 }
 
+body {
+  min-width: 825px;
+}
+
 p {
   margin-top: 14px;
   margin-bottom: 14px;
