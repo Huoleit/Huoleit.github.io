@@ -168,3 +168,7 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.underline {
+  text-decoration: underline;
+}
